@@ -17,7 +17,7 @@ export const fetchUsers = createAsyncThunk(
     }
   }
 );
-
+ 
 const usersSlice = createSlice({
   name: "users",
   initialState: {
